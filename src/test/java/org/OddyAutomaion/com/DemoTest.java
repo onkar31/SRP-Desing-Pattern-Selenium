@@ -9,7 +9,7 @@ public class DemoTest {
 
     @Test
     public void flightTest(){
-        //provide chromedrievr path based on chromedrievr location on your local dir 
+        //provide chromedriver path based on chromedriver location on your local dir 
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\onkar\\Desktop\\Drivers\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         TravelHomePage travelHomePage = new TravelHomePage(driver);
